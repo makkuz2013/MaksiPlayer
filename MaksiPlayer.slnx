@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="MaksiPlayer/MaksiPlayer.vcxproj" Id="17d31566-2780-442e-9095-ec9293036a01" />
+</Solution>
