@@ -9,12 +9,6 @@
 #pragma comment(lib, "dwmapi.lib")
 #pragma comment(lib, "winmm.lib")
 
-void EnableModernWindow(HWND hwnd)
-{
-	BOOL dark = TRUE;
-	DwmSetWindowAttribute(hwnd, 20, &dark, sizeof(dark));
-}
-
 HFONT hFont = CreateFontW(
 	-14, 0, 0, 0,
 	FW_NORMAL, FALSE, FALSE, FALSE,
